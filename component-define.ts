@@ -50,7 +50,7 @@ export function $<
   const TEmits extends string[] = [],
   const TSlots extends string[] = [],
 >(component: {
-  props: TPropsType
+  props?: TPropsType
   expose?: TExposeType
   emits?: TEmits
   slots?: TSlots
