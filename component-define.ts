@@ -51,7 +51,7 @@ export function $<
   const TSlots extends string[] = [],
 >(component: {
   props: TPropsType
-  expose: TExposeType
+  expose?: TExposeType
   emits?: TEmits
   slots?: TSlots
   setup: (context: ComponentSetupContext<TPropsType['infer'], TExposeType['infer'], TSlots, TEmits>) => RenderFn
